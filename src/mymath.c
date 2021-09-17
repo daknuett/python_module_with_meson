@@ -33,7 +33,7 @@ static PyMethodDef MymathMethods[] = {
 // Structure that contains the definition of the external module.
 static struct PyModuleDef mymathmodule = {
    PyModuleDef_HEAD_INIT,
-   "mymath",
+   "mymath.mymath",
    NULL,
    -1,
    MymathMethods
