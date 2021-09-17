@@ -1,5 +1,11 @@
 project('test_project', version:'0.0.0')
 
-python = import('python3').find_installation()
-subdir('src')
+pymod = import('python')
+python = pymod.find_installation('python3')
+
+python.install_sources(
+  'src/test.py',
+  pure:true,
+  subdir:'test_module'
+)
 
