@@ -1,0 +1,9 @@
+[project]
+authors = ["Daniel Knüttel"]
+
+description = "empty"
+platforms = "any"
+dependencies = []
+
+[build-system]
+requires = ["meson", "mesonpep517"]
