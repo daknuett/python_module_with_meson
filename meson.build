@@ -10,4 +10,4 @@ python.install_sources(
   subdir:'mymath'
 )
 
-mymath = python.extension_module('mymath.mymath', 'src/mymath.c', dependencies:pydep, install:true, subdir:'')
+mymath = python.extension_module('mymath.mymath', 'src/mymath.c', dependencies:pydep, install:true, subdir:'mymath')
