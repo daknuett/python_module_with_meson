@@ -6,7 +6,7 @@ pydep = python.dependency('python3')
 
 python.install_sources(
   'src/test.py',
-  pure:false,
+  pure:true,
   subdir:'mymath'
 )
 
